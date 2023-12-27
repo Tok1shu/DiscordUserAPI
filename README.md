@@ -68,7 +68,19 @@
     ```http
     GET /api/getUser/1234567890
     ```
-
+  - **Ответ:**
+    ```json
+    {
+    "avatar": "https://cdn.discordapp.com/avatars/761175017588916224/1de233297fdabbabfee73c6808ef12d9.png?size=1024",
+    "nickname": "Tok1shu",
+    "roles": [
+        "@everyone",
+        "new role"
+    ],
+    "discord_id": "761175017588916224",
+    "banner": "https://cdn.discordapp.com/banners/761175017588916224/5a0958976d4a7f63794525ba3fab2244.png?size=512"
+}
+    ```
 ---
 
 #### Важное замечание:
